@@ -223,6 +223,7 @@ function App() {
 
   return (
     <>
+      <SpeedInsights />
       {/* Cursor */}
       <div ref={curRef} className={`cur${hovering ? " hovered" : ""}`} />
       <div ref={trailRef} className={`cur-trail${hovering ? " hovered" : ""}`} />
